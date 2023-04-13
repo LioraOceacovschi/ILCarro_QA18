@@ -15,16 +15,27 @@ public class HelperUser extends HelperBase{
         type(By.id("email"), email);
         type(By.id("password"), password);
     }
+    public void fillRegistrationForm(String name, String lastName, String email, String password){
+        type(By.id("name"), name);
+        type(By.id("lastName"), lastName);
+        type(By.id("email"), email);
+        type(By.id("password"), password);
+    }
 
     public void submitForm(){
         wd.findElement(By.cssSelector("[type='submit']")).submit();
     }
 
+    public void clickCheckbox(){
+
+    }
 
     public void openLoginForm() {
         click(By.xpath("//a[.=' Log in ']"));
     }
-
+    public void openRegistrationForm() {
+        click(By.xpath("//a[.=' Sign up ']"));
+    }
 
     public void logout(){
         click(By.xpath("//a[.=' Logout ']"));
@@ -43,12 +54,6 @@ public class HelperUser extends HelperBase{
         WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//div[.=\"It'snot look like email\"]"))));
         return wd.findElement(By.xpath("//div[.=\"It'snot look like email\"]")).getText().contains("like email");
-    }
-    public boolean isLoggedFailed2(){
-        WebDriverWait wait = new WebDriverWait(wd,10);
-        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h1[contains(text(),'failed')]"))));
-        return isElementPresent(By.xpath("//h1[contains(text(),'failed')]"));
-
     }
 
 

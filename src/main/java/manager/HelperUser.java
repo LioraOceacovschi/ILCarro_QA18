@@ -63,4 +63,8 @@ public class HelperUser extends HelperBase{
             click(By.xpath("//button[.='Ok']"));
         }
     }
+
+    public boolean isLoggedFailed2() {
+        return isElementPresent(By.xpath("//h2[.='\"Login or Password incorrect\"']"));
+    }
 }

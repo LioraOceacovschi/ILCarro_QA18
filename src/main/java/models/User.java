@@ -6,9 +6,6 @@ public class User {
     String email;
     String password;
 
-    public String getName() {
-        return name;
-    }
 
     public User() {
     }
@@ -59,6 +56,10 @@ public class User {
     public User withPassword(String password) {
         this.password = password;
         return this;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public String getLastName() {

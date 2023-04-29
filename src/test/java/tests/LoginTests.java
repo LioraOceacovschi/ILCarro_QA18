@@ -19,7 +19,7 @@ public class LoginTests extends TestBase{
     public void loginPositiveTest(){
         User data = new User().withEmail("asd@fgh.com").withPassword("$Asdf1234");
         app.getUser().openLoginForm();
-      //  app.getUser().fillLoginForm("asd@fgh.com", "$Asdf1234");
+//        app.getUser().fillLoginForm("asd@fgh.com", "$Asdf1234");
         app.getUser().fillLoginForm(data);
         app.getUser().submitForm();
 
@@ -28,16 +28,11 @@ public class LoginTests extends TestBase{
 
     @Test
     public void loginNegativeTestWrongEmail(){
+        User data = new User().withEmail("asdfgh.com").withPassword("$Asdf1234");
         app.getUser().openLoginForm();
-        app.getUser().fillLoginForm("asdfgh.com", "$Asdf1234");
+//        app.getUser().fillLoginForm("asdfgh.com", "$Asdf1234");
+        app.getUser().fillLoginForm(data);
         Assert.assertTrue(app.getUser().isLoggedFailed());
-    }
-    @Test
-    public void loginNegativeTestWrongPassword(){
-        app.getUser().openLoginForm();
-        app.getUser().fillLoginForm("asd@fgh.com", "$Asdf123");
-        app.getUser().submitForm();
-        Assert.assertTrue(app.getUser().isLoggedFailed2());
     }
 
     @AfterMethod

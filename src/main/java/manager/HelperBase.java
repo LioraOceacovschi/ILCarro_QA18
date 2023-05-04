@@ -37,4 +37,7 @@ public class HelperBase {
             throw new RuntimeException(e);
         }
     }
+    public void clickToHeaderLogo(){
+        click(By.xpath("//img[@alt='logo'][contains(@src,'../../../assets/images/navigator/logo.svg')]"));
+    }
 }

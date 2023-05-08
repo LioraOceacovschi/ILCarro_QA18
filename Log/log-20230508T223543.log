@@ -1,0 +1,35 @@
+22:35:46.077  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+22:35:56.146  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+22:35:56.148  INFO  tests.TestBase  registrationPositiveTest starts with:  joe2156mail.com & $Asdf12342156
+22:35:56.150  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Sign up ']
+22:35:56.183  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Sign up '] is found successfully
+22:35:56.265  INFO  manager.MyListener  Start searching element by By.id: name
+22:35:56.278  INFO  manager.MyListener  The element with locator by By.id: name is found successfully
+22:35:56.387  INFO  manager.MyListener  Start searching element by By.id: lastName
+22:35:56.403  INFO  manager.MyListener  The element with locator by By.id: lastName is found successfully
+22:35:56.511  INFO  manager.MyListener  Start searching element by By.id: email
+22:35:56.529  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+22:35:56.659  INFO  manager.MyListener  Start searching element by By.id: password
+22:35:56.683  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+22:35:56.808  INFO  manager.MyListener  Start searching element by By.xpath: //*[@class='checkbox-container']
+22:35:56.822  INFO  manager.MyListener  The element with locator by By.xpath: //*[@class='checkbox-container'] is found successfully
+22:35:56.855  INFO  manager.MyListener  Start searching element by By.xpath: //*[@class='checkbox-container']
+22:35:56.864  INFO  manager.MyListener  The element with locator by By.xpath: //*[@class='checkbox-container'] is found successfully
+22:35:56.902  INFO  manager.MyListener  Something went wrong!
+22:35:56.902  INFO  manager.MyListener  move target out of bounds
+  (Session info: chrome=112.0.5615.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 415011caff0837562cd120d2d428e4c4
+22:35:56.902  INFO  manager.MyListener  org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=112.0.5615.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 415011caff0837562cd120d2d428e4c4
+22:35:57.648  INFO  manager.MyListener  Here is the link to screenlshot with error: src/test/screenshots/screenshot - 2156.png
+22:35:57.649  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+22:36:07.709  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully

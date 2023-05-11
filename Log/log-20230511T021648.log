@@ -1,0 +1,107 @@
+02:16:51.200  INFO  tests.TestBase             ############### Start  test loginNegativeTestWrongEmail
+02:16:51.203  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:17:01.239  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:17:01.241  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Log in ']
+02:17:01.269  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Log in '] is found successfully
+02:17:01.349  INFO  manager.MyListener  Start searching element by By.id: email
+02:17:01.377  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+02:17:01.531  INFO  manager.MyListener  Start searching element by By.id: password
+02:17:01.548  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+02:17:01.665  INFO  manager.MyListener  Start searching element by By.xpath: //div[.="It'snot look like email"]
+02:17:01.690  INFO  manager.MyListener  The element with locator by By.xpath: //div[.="It'snot look like email"] is found successfully
+02:17:01.749  INFO  manager.MyListener  Start searching element by By.xpath: //div[.="It'snot look like email"]
+02:17:01.760  INFO  manager.MyListener  The element with locator by By.xpath: //div[.="It'snot look like email"] is found successfully
+02:17:01.778  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:17:11.835  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:17:11.837  INFO  tests.TestBase       ###### Finished  #########
+02:17:11.838  INFO  tests.TestBase             ############### Start  test loginPositiveTest
+02:17:11.839  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:17:21.898  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:17:21.898  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Log in ']
+02:17:21.911  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Log in '] is found successfully
+02:17:21.948  INFO  manager.MyListener  Start searching element by By.id: email
+02:17:21.970  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+02:17:22.081  INFO  manager.MyListener  Start searching element by By.id: password
+02:17:22.094  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+02:17:22.209  INFO  manager.MyListener  Start searching element by By.cssSelector: [type='submit']
+02:17:22.226  INFO  manager.MyListener  The element with locator by By.cssSelector: [type='submit'] is found successfully
+02:17:22.244  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='Logged in success']
+02:17:23.187  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='Logged in success'] is found successfully
+02:17:23.208  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='Logged in success']
+02:17:23.218  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='Logged in success'] is found successfully
+02:17:23.228  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:17:23.251  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:17:23.252  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:17:23.269  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:17:23.304  INFO  tests.TestBase       ###### Finished  #########
+02:17:23.308  INFO  tests.TestBase             ############### Start  test loginNegativeTestWrongEmail
+02:17:23.308  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:17:23.327  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:17:23.328  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:17:23.346  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:17:23.408  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Log in ']
+02:17:23.422  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Log in '] is found successfully
+02:17:23.479  INFO  manager.MyListener  Start searching element by By.id: email
+02:17:23.499  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+02:17:23.629  INFO  manager.MyListener  Start searching element by By.id: password
+02:17:23.639  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+02:17:23.757  INFO  manager.MyListener  Start searching element by By.xpath: //div[.="It'snot look like email"]
+02:17:23.764  INFO  manager.MyListener  The element with locator by By.xpath: //div[.="It'snot look like email"] is found successfully
+02:17:23.782  INFO  manager.MyListener  Start searching element by By.xpath: //div[.="It'snot look like email"]
+02:17:23.795  INFO  manager.MyListener  The element with locator by By.xpath: //div[.="It'snot look like email"] is found successfully
+02:17:23.809  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:17:33.838  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:17:33.839  INFO  tests.TestBase       ###### Finished  #########
+02:17:33.839  INFO  tests.TestBase             ############### Start  test loginPositiveTest
+02:17:33.840  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:17:43.863  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:17:43.863  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Log in ']
+02:17:43.894  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Log in '] is found successfully
+02:17:43.939  INFO  manager.MyListener  Start searching element by By.id: email
+02:17:43.947  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+02:17:44.056  INFO  manager.MyListener  Start searching element by By.id: password
+02:17:44.070  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+02:17:44.158  INFO  manager.MyListener  Start searching element by By.cssSelector: [type='submit']
+02:17:44.166  INFO  manager.MyListener  The element with locator by By.cssSelector: [type='submit'] is found successfully
+02:17:44.183  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='Logged in success']
+02:17:44.466  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='Logged in success'] is found successfully
+02:17:44.495  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='Logged in success']
+02:17:44.508  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='Logged in success'] is found successfully
+02:17:44.522  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:17:44.540  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:17:44.541  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:17:44.559  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:17:44.599  INFO  tests.TestBase       ###### Finished  #########
+02:17:44.600  INFO  tests.TestBase             ############### Start  test registrationPositiveTest
+02:17:44.601  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:17:44.618  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:17:44.618  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:17:44.637  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:17:44.690  INFO  tests.TestBase  registrationPositiveTest starts with:  joe1064@mail.com & $Asdf12341064
+02:17:44.690  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Sign up ']
+02:17:44.716  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Sign up '] is found successfully
+02:17:44.767  INFO  manager.MyListener  Start searching element by By.id: name
+02:17:44.776  INFO  manager.MyListener  The element with locator by By.id: name is found successfully
+02:17:44.886  INFO  manager.MyListener  Start searching element by By.id: lastName
+02:17:44.919  INFO  manager.MyListener  The element with locator by By.id: lastName is found successfully
+02:17:44.936  INFO  manager.MyListener  Something went wrong!
+02:17:44.937  INFO  manager.MyListener  stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 804b21dbe35eee257dcb38acb37836ec
+02:17:44.937  INFO  manager.MyListener  org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 804b21dbe35eee257dcb38acb37836ec
+02:17:45.478  INFO  manager.MyListener  Here is the link to screenshot with error: src/test/screenshots/screenshot - 1064.png
+02:17:45.478  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:17:55.556  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:17:55.557  INFO  tests.TestBase       ###### Finished  #########

@@ -1,0 +1,109 @@
+00:21:20.378  INFO  tests.TestBase             ############### Start  test loginNegativeTestWrongEmail
+00:21:20.380  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+00:21:30.416  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+00:21:30.419  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Log in ']
+00:21:30.444  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Log in '] is found successfully
+00:21:30.509  INFO  manager.MyListener  Start searching element by By.id: email
+00:21:30.535  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+00:21:30.657  INFO  manager.MyListener  Start searching element by By.id: password
+00:21:30.673  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+00:21:30.785  INFO  manager.MyListener  Start searching element by By.xpath: //div[.="It'snot look like email"]
+00:21:30.798  INFO  manager.MyListener  The element with locator by By.xpath: //div[.="It'snot look like email"] is found successfully
+00:21:30.832  INFO  manager.MyListener  Start searching element by By.xpath: //div[.="It'snot look like email"]
+00:21:30.843  INFO  manager.MyListener  The element with locator by By.xpath: //div[.="It'snot look like email"] is found successfully
+00:21:30.856  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+00:21:40.908  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+00:21:40.909  INFO  tests.TestBase       ###### Finished  #########
+00:21:40.911  INFO  tests.TestBase             ############### Start  test loginPositiveTest
+00:21:40.912  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+00:21:50.972  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+00:21:50.972  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Log in ']
+00:21:50.992  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Log in '] is found successfully
+00:21:51.025  INFO  manager.MyListener  Start searching element by By.id: email
+00:21:51.038  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+00:21:51.173  INFO  manager.MyListener  Start searching element by By.id: password
+00:21:51.194  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+00:21:51.340  INFO  manager.MyListener  Start searching element by By.cssSelector: [type='submit']
+00:21:51.366  INFO  manager.MyListener  The element with locator by By.cssSelector: [type='submit'] is found successfully
+00:21:51.386  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='Logged in success']
+00:21:52.341  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='Logged in success'] is found successfully
+00:21:52.361  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='Logged in success']
+00:21:52.372  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='Logged in success'] is found successfully
+00:21:52.385  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+00:21:52.411  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+00:21:52.411  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+00:21:52.421  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+00:21:52.463  INFO  tests.TestBase       ###### Finished  #########
+00:21:52.464  INFO  tests.TestBase             ############### Start  test registrationPositiveTest
+00:21:52.465  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+00:21:52.483  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+00:21:52.483  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+00:21:52.500  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+00:21:52.564  INFO  tests.TestBase  registrationPositiveTest starts with:  joe1312@mail.com & $Asdf12341312
+00:21:52.564  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Sign up ']
+00:21:52.576  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Sign up '] is found successfully
+00:21:52.631  INFO  manager.MyListener  Start searching element by By.id: name
+00:21:52.656  INFO  manager.MyListener  The element with locator by By.id: name is found successfully
+00:21:52.766  INFO  manager.MyListener  Start searching element by By.id: lastName
+00:21:52.776  INFO  manager.MyListener  The element with locator by By.id: lastName is found successfully
+00:21:52.884  INFO  manager.MyListener  Start searching element by By.id: email
+00:21:52.896  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+00:21:52.939  INFO  manager.MyListener  Something went wrong!
+00:21:52.939  INFO  manager.MyListener  stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b48aeae1c691fe97d3b424a022bc7075
+00:21:52.939  INFO  manager.MyListener  org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b48aeae1c691fe97d3b424a022bc7075
+00:21:53.421  INFO  manager.MyListener  Here is the link to screenshot with error: src/test/screenshots/screenshot - 1312.png
+00:21:53.422  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+00:22:03.478  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+00:22:03.479  INFO  tests.TestBase       ###### Finished  #########
+00:22:03.481  INFO  tests.TestBase             ############### Start  test searchPositiveTest
+00:22:03.486  INFO  manager.MyListener  Start searching element by By.xpath: //img[@alt='logo'][contains(@src,'../../../assets/images/navigator/logo.svg')]
+00:22:03.505  INFO  manager.MyListener  The element with locator by By.xpath: //img[@alt='logo'][contains(@src,'../../../assets/images/navigator/logo.svg')] is found successfully
+00:22:03.936  INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='city']
+00:22:03.955  INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='city'] is found successfully
+00:22:07.083  INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='city']
+00:22:07.104  INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='city'] is found successfully
+00:22:09.227  INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='dates']
+00:22:09.243  INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='dates'] is found successfully
+00:22:12.362  INFO  manager.MyListener  Start searching element by By.xpath: //button[@aria-label='Choose month and year']
+00:22:12.387  INFO  manager.MyListener  The element with locator by By.xpath: //button[@aria-label='Choose month and year'] is found successfully
+00:22:12.445  INFO  manager.MyListener  Start searching element by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'2023')]
+00:22:12.464  INFO  manager.MyListener  The element with locator by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'2023')] is found successfully
+00:22:15.514  INFO  manager.MyListener  Start searching element by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'MAY')]
+00:22:15.566  INFO  manager.MyListener  The element with locator by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'MAY')] is found successfully
+00:22:18.658  INFO  manager.MyListener  Start searching element by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'7')]
+00:22:18.706  INFO  manager.MyListener  The element with locator by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'7')] is found successfully
+00:22:18.802  INFO  manager.MyListener  Start searching element by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'17')]
+00:22:18.825  INFO  manager.MyListener  The element with locator by By.xpath: //tbody[@class='mat-calendar-body']/tr/td[contains(.,'17')] is found successfully
+00:22:18.876  INFO  manager.MyListener  Start searching element by By.xpath: //button[contains(.,"alla!")]
+00:22:18.907  INFO  manager.MyListener  The element with locator by By.xpath: //button[contains(.,"alla!")] is found successfully
+00:22:20.019  INFO  manager.MyListener  Something went wrong!
+00:22:20.019  INFO  manager.MyListener  element click intercepted: Element <button _ngcontent-cle-c106="" type="submit" disabled="">...</button> is not clickable at point (183, 424). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop"></div>
+  (Session info: chrome=112.0.5615.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b48aeae1c691fe97d3b424a022bc7075
+00:22:20.019  INFO  manager.MyListener  org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-cle-c106="" type="submit" disabled="">...</button> is not clickable at point (183, 424). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop"></div>
+  (Session info: chrome=112.0.5615.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b48aeae1c691fe97d3b424a022bc7075
+00:22:20.589  INFO  manager.MyListener  Here is the link to screenshot with error: src/test/screenshots/screenshot - 1340.png
+00:22:20.589  INFO  tests.TestBase       ###### Finished  #########

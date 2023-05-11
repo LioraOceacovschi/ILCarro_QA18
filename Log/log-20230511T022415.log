@@ -1,0 +1,30 @@
+02:24:20.084  INFO  tests.TestBase             ############### Start  test registrationPositiveTest
+02:24:20.088  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Logout ']
+02:24:30.132  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Logout '] is found successfully
+02:24:30.135  INFO  tests.TestBase  registrationPositiveTest starts with:  joe1470@mail.com & $Asdf12341470
+02:24:30.135  INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Sign up ']
+02:24:30.149  INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Sign up '] is found successfully
+02:24:30.239  INFO  manager.MyListener  Start searching element by By.id: name
+02:24:30.262  INFO  manager.MyListener  The element with locator by By.id: name is found successfully
+02:24:30.437  INFO  manager.MyListener  Start searching element by By.id: lastName
+02:24:30.460  INFO  manager.MyListener  The element with locator by By.id: lastName is found successfully
+02:24:30.586  INFO  manager.MyListener  Start searching element by By.id: email
+02:24:30.600  INFO  manager.MyListener  The element with locator by By.id: email is found successfully
+02:24:30.764  INFO  manager.MyListener  Start searching element by By.id: password
+02:24:30.813  INFO  manager.MyListener  The element with locator by By.id: password is found successfully
+02:24:30.944  INFO  manager.MyListener  Start searching element by By.xpath: //*[@class='checkbox-container']
+02:24:30.965  INFO  manager.MyListener  The element with locator by By.xpath: //*[@class='checkbox-container'] is found successfully
+02:24:31.001  INFO  manager.MyListener  Start searching element by By.xpath: //*[@class='checkbox-container']
+02:24:31.022  INFO  manager.MyListener  The element with locator by By.xpath: //*[@class='checkbox-container'] is found successfully
+02:24:31.271  INFO  manager.MyListener  Start searching element by By.cssSelector: [type='submit']
+02:24:31.289  INFO  manager.MyListener  The element with locator by By.cssSelector: [type='submit'] is found successfully
+02:24:31.308  INFO  tests.TestBase  registrationPositiveTest completed
+02:24:31.308  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='You are logged in success']
+02:24:32.366  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='You are logged in success'] is found successfully
+02:24:32.921  INFO  manager.MyListener  Start searching element by By.xpath: //h2[.='You are logged in success']
+02:24:32.944  INFO  manager.MyListener  The element with locator by By.xpath: //h2[.='You are logged in success'] is found successfully
+02:24:32.960  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:24:32.972  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:24:32.974  INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+02:24:32.988  INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successfully
+02:24:33.024  INFO  tests.TestBase       ###### Finished  #########

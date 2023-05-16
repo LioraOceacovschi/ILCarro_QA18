@@ -93,6 +93,7 @@ public class HelperUser extends HelperBase {
 
 
     public void clickOkButton() {
+        pause(1000);
         if (isElementPresent(By.xpath("//button[.='Ok']"))) {
             click(By.xpath("//button[.='Ok']"));
         }

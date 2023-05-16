@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
@@ -53,7 +53,7 @@ public class RegistrationTests extends TestBase {
 //        // Assert.assertTrue(app.getUser().isWrongEmail());
 //    }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.getUser().clickOkButton();
     }

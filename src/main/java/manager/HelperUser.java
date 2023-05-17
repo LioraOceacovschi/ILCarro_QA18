@@ -37,24 +37,24 @@ public class HelperUser extends HelperBase {
     }
 
     public void submitForm() {
-        wd.findElement(By.cssSelector("[type='submit']")).submit();
+        wd.findElement(By.xpath("//button[@type='submit']")).submit();
     }
 
     public void clickCheckbox() {
         // variant 1
 //        click(By.xpath("//label[@for='terms-of-use']"));
         // variant 2
-//        JavascriptExecutor script = (JavascriptExecutor) wd;
-//        script.executeScript("document.querySelector('#terms-of-use').click();");
+        JavascriptExecutor script = (JavascriptExecutor) wd;
+        script.executeScript("document.querySelector('#terms-of-use').click();");
         // variant 3
-        WebDriverWait wait = new WebDriverWait(wd, 10);
-        wait.until(ExpectedConditions.
-                visibilityOfElementLocated(By.xpath("//*[@class='checkbox-container']")));
-        Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();
-        int x = rect.getX() + 5;
-        int y = rect.getY() + rect.getHeight()/2;
-        Actions actions = new Actions(wd);
-        actions.moveByOffset(x, y).click().perform();
+//        WebDriverWait wait = new WebDriverWait(wd, 10);
+//        wait.until(ExpectedConditions.
+//                visibilityOfElementLocated(By.xpath("//*[@class='checkbox-container']")));
+//        Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();
+//        int x = rect.getX() + 5;
+//        int y = rect.getY() + rect.getHeight()/2;
+//        Actions actions = new Actions(wd);
+//        actions.moveByOffset(x, y).click().perform();
     }
 
     public void openLoginForm() {
@@ -102,5 +102,15 @@ public class HelperUser extends HelperBase {
     public void pageDown() {
       WebElement header = wd.findElement(By.xpath("//div[@class='header']"));
       header.sendKeys(Keys.PAGE_DOWN);
+    }
+
+
+    public boolean isWrongEmailTextPresent() {
+      return  isElementPresent(By.xpath("//div[contains(text(),'Wrong email')]"));
+    }
+
+    public boolean submitFormIsAvailable() {
+
+       return wd.findElement(By.xpath("//button[@type='submit']")).isEnabled();
     }
 }

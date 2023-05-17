@@ -2,6 +2,7 @@
 
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -38,20 +39,35 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getUser().isRegisteredSuccess());
 
     }
-//    @Test
-//    public void registrationNegativeTest(){
-//        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-//        User user = new User()
-//                .withName("Joe")
-//                .withLastName("Doe")
-//                .withEmail("joe" + i + "mail.com")
-//                .withPassword("$Asdf1234" + i);
-//        app.getUser().openRegistrationForm();
-//        app.getUser().fillRegistrationForm(user);
-//        app.getUser().clickCheckbox();
-//        app.getUser().submitForm();
-//        // Assert.assertTrue(app.getUser().isWrongEmail());
-//    }
+    @Test(dataProvider = "registrationDtoCsv",dataProviderClass = ProviderData.class)
+    public void registrationPositiveTestCSV(User data) {
+
+        logger.info("registrationPositiveTest starts with:  " + data.getEmail() + " & " + data.getPassword());
+
+        app.getUser().openRegistrationForm();
+        app.getUser().fillRegistrationForm(data);
+        app.getUser().clickCheckbox();
+        app.getUser().submitForm();
+        logger.info("registrationPositiveTest completed");
+
+        Assert.assertTrue(app.getUser().isRegisteredSuccess());
+
+    }
+    @Test
+    public void registrationNegativeTest(){
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+        User user = new User()
+                .withName("Joe")
+                .withLastName("Doe")
+                .withEmail("joe" + i + "mail.com")
+                .withPassword("$Asdf1234" + i);
+        app.getUser().openRegistrationForm();
+        app.getUser().fillRegistrationForm(user);
+        app.getUser().clickCheckbox();
+        Assert.assertTrue(app.getUser().isWrongEmailTextPresent());
+        app.getUser().submitForm();
+        Assert.assertFalse(app.getUser().submitFormIsAvailable());
+    }
 
     @AfterMethod(alwaysRun = true)
     public void postCondition() {

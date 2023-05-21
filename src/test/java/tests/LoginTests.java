@@ -24,6 +24,13 @@ public class LoginTests extends TestBase{
         app.getUser().submitForm();
         Assert.assertTrue(app.getUser().isLoggedSuccess());
     }
+    @Test
+    public void loginPositiveTestConfig(){
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(app.getEmail(), app.getPassword());
+        app.getUser().submitForm();
+        Assert.assertTrue(app.getUser().isLoggedSuccess());
+    }
 
     @Test
     public void loginNegativeTestWrongEmail(){

@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     EventFiringWebDriver wd;
     //WebDriver wd;
-     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
+    Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
     HelperUser user;
     HelperSearch search;
@@ -31,20 +31,22 @@ public class ApplicationManager {
     }
 
     public void init() throws IOException {
-       // wd = new ChromeDriver();
-        properties.load(new FileReader(new File("src/test/resources/config.properties")));
-       // wd = new EventFiringWebDriver(new ChromeDriver());
-        if(browser.equals(BrowserType.CHROME)){
+        String configuration = System.getProperty("configuration", "config");
+        // wd = new ChromeDriver();
+        //properties.load(new FileReader(new File("src/test/resources/config.properties")));
+        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties",configuration))));
+        // wd = new EventFiringWebDriver(new ChromeDriver());
+        if (browser.equals(BrowserType.CHROME)) {
             wd = new EventFiringWebDriver(new ChromeDriver());
             logger.info("Testing on Chrome Driver");
-        }else if(browser.equals(BrowserType.FIREFOX)){
+        } else if (browser.equals(BrowserType.FIREFOX)) {
             wd = new EventFiringWebDriver(new FirefoxDriver());
             logger.info("Testing on Firefox Driver");
 
         }
         wd.register(new MyListener());
         wd.manage().window().maximize();
-       // wd.navigate().to("https://ilcarro.web.app/search");
+        // wd.navigate().to("https://ilcarro.web.app/search");
         wd.navigate().to(properties.getProperty("web.baseURL"));
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         user = new HelperUser(wd);
@@ -59,10 +61,11 @@ public class ApplicationManager {
         return search;
     }
 
-    public String getEmail(){
+    public String getEmail() {
         return properties.getProperty("web.email");
     }
-    public String getPassword(){
+
+    public String getPassword() {
         return properties.getProperty("web.password");
     }
 
